@@ -19,7 +19,7 @@ imageElement.setAttribute ('src' , profilePicture);
 imageElement.setAttribute ('alt' , `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
-const favFoods = ["Pizza", "Burgers", "Dark Chocolate", "Chili"];
+const favFoods = ["Pizza", "Burgers", "Smoothies", "Dark Chocolate", "Chili"];
 foodElement.innerHTML = favFoods;
 const extraFoodItem = "Homemade chocolate peanut butter cups";
 favFoods.push(extraFoodItem);
