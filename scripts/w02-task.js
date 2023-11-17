@@ -11,12 +11,12 @@ let profilePicture = 'images/profilePicture.png';
 const nameElement = document.getElementById('name');
 const foodElement = document.getElementById('food');
 const yearElement = document.querySelector('#year');
-const imageElement = document.querySelector('picture img');
+const imageElement = document.querySelector('img');
 
 /* Step 4 - Adding Content */
 nameElement.innerHTML = `<strong>${fullName}<strong>`;
-imageElement.setAttribute = ('src' , profilePicture);
-imageElement.setAttribute = ('alt' , `Profile image of ${fullName}`);
+imageElement.setAttribute ('src' , profilePicture);
+imageElement.setAttribute ('alt' , `Profile image of ${fullName}`);
 
 /* Step 5 - Array */
 const favFoods = ["Pizza", "Burgers", "Dark Chocolate", "Chili"];
